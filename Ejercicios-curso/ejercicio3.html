@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tercera clase</title>
+</head>
+<body>
+    <form action="procesar.html" method="get" enctype="text/plain" class="forma"> 
+        <!--Metodo get es muy poco seguro. Solo con info no confidencial-->
+        <!--Metodo post es mas seguro-->
+        <label>Llene los siguientes datos: </label>
+        <br>
+        <br>
+        <label for="nomb">Nombre: </label>
+        <input type="text" name="nombre" id="nomb" required placeholder="Su nombre aca" value="nombre1">
+        <br>
+        <br>
+        <label for="ape">Apellido: </label>
+        <input type="text" name="apellido" id="ape" required placeholder="Su apellido aca">
+        <br>
+        <br>
+        <label for="pass">Contraena: </label>
+        <input type="password" name="password" id="pass" required placeholder="Contrasena">
+        <br>
+        <br>
+        <label for="obs">Observaciones: </label>
+        <textarea type="text" name="Observaciones" rows="10" cols="40" id="obs">Escribe tus comentarios</textarea>
+        <br>
+        <br>
+        <input type="date" name="fechaviaje" id="fechaviaje">
+        <br>
+        <br>
+        <label for="prov">Seleccione la provincia</label>
+        <select name="provincia" id="">
+            <option aria-placeholder="" default hidden>--Seleccione--</option> 
+            <option value="1">Mendoza</option>
+            <option value="2">Jujuy</option>
+            <option value="3">RIo Negro</option>
+       </select>
+  <br>
+  <br>
+         <table>
+             <tr>
+                 <td><input type="radio" name="mes" id="1">Enero</input></td>
+                 <td><input type="radio" name="mes" id="5">Mayo</input></td>
+                 <td><input type="radio" name="mes" id="9">Septiembre</input></td>
+              </tr>
+              <tr>
+                 <td><input type="radio" name="mes" id="2">Febrero</input></td> 
+                 <td><input type="radio" name="mes" id="6">Junio</input></td>
+                 <td><input type="radio" name="mes" id="10">Octubre</input></td>
+             </tr>
+             <tr>
+                 <td><input type="radio" name="mes" id="3">Marzo</input></td>
+                 <td><input type="radio" name="mes" id="7">Julio</input></td>
+                 <td><input type="radio" name="mes" id="11">Noviembre</input></td>
+             </tr>
+             <tr>
+                 <td><input type="radio" name="mes" id="4">Abril</input></td>
+                 <td><input type="radio" name="mes" id="8">Agosto</input></td>
+                 <td><input type="radio" name="mes" id="12">Diciembre</input></td>
+             </tr>
+
+         </table>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+<input type="reset" value="limpo">
+<input type="submit" value="enviar">
+
+    </form>
+
+    <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+    <div>
+        <form action="https://formspree.io" method="get" enctype="text/plain" class="forma"> <!--"https://formspree.io" pagimna para enviar formularios-->
+            <!--Metodo get es muy poco seguro. Solo con info no confidencial-->
+            <!--Metodo post es mas seguro-->
+            <label>Llene los siguientes datos: </label>
+            <br>
+            <br>
+            <label for="nomb">Nombre: </label>
+            <input type="text" name="nombre" id="nomb" required placeholder="Su nombre aca" value="nombre1">
+            <br>
+            <br>
+            <label for="ape">Apellido: </label>
+            <input type="text" name="apellido" id="ape" required placeholder="Su apellido aca">
+            <br>
+            <br>
+            <label for="pass">Contraena: </label>
+            <input type="password" name="password" id="pass" required placeholder="Contrasena">
+            <br>
+            <br>
+            <label for="obs">Observaciones: </label>
+            <textarea type="text" name="Observaciones" rows="10" cols="40" id="obs">Escribe tus comentarios</textarea>
+            <br>
+            <br>
+            <input type="date" name="fechaviaje" id="fechaviaje">
+            <br>
+            <br>
+            <label for="prov">Seleccione la provincia</label>
+            <select name="provincia" id="">
+                <option aria-placeholder="" default hidden>--Seleccione--</option> 
+                <option value="1">Mendoza</option>
+                <option value="2">Jujuy</option>
+                <option value="3">RIo Negro</option>
+           </select>
+      <br>
+      <br>
+             <table>
+                 <tr>
+                     <td><input type="radio" name="mes" id="1">Enero</input></td>
+                     <td><input type="radio" name="mes" id="5">Mayo</input></td>
+                     <td><input type="radio" name="mes" id="9">Septiembre</input></td>
+                  </tr>
+                  <tr>
+                     <td><input type="radio" name="mes" id="2">Febrero</input></td> 
+                     <td><input type="radio" name="mes" id="6">Junio</input></td>
+                     <td><input type="radio" name="mes" id="10">Octubre</input></td>
+                 </tr>
+                 <tr>
+                     <td><input type="radio" name="mes" id="3">Marzo</input></td>
+                     <td><input type="radio" name="mes" id="7">Julio</input></td>
+                     <td><input type="radio" name="mes" id="11">Noviembre</input></td>
+                 </tr>
+                 <tr>
+                     <td><input type="radio" name="mes" id="4">Abril</input></td>
+                     <td><input type="radio" name="mes" id="8">Agosto</input></td>
+                     <td><input type="radio" name="mes" id="12">Diciembre</input></td>
+                 </tr>
+    
+             </table>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    <input type="reset" value="limpo">
+    <input type="submit" value="enviar">
+    
+        </form>
+
+
+
+
+    </div>
+
+    <div>
+
+        <form action="procesar.html" method="post" enctype="text/plain" class="forma"> 
+            <!--Metodo post es mas seguro-->
+            <label>Llene los siguientes datos: </label>
+            <br>
+            <br>
+            <label for="nomb">Nombre: </label>
+            <input type="text" name="nombre" id="nomb"  placeholder="Su nombre aca" value="nombre1" pattern="[a-z]{1,30}">
+            <br>
+            <br>
+            <label for="ape">Apellido: </label>
+            <input type="text" name="apellido" id="ape"  placeholder="Su apellido aca">
+            <br>
+            <br>
+            <label for="pass">Contraena: </label>
+            <input type="password" name="password" id="pass" placeholder="Contrasena">
+            <br>
+            <br>
+            <label for="fotodni">foto dni</label>
+            <input type="file" multiple name="fotodni" id="fotodni" accept=".jpg,.png,.pdf" >
+            <br>
+            <br>
+            <label for="mail">mail</label>
+            <input type="email" multiple name="mail" id="mail"  >
+    <input type="reset" value="limpo">
+    <input type="submit" value="enviar">
+
+
+
+    </div>
+
+</body>
+</html>

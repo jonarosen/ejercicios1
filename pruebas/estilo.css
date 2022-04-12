@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+background-color: white;
+
+
+}
+
+#menu{
+    background-color: rgb(1, 1, 139);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2.35em;
+    box-shadow: 5px 10px 18px #888888;
+    
+    
+    
+}
+
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 5px 10px 18px #888888;
+    
+   
+   
+}
+
+#menu ul li{
+    display: block;
+    background-color: rgb(1, 1, 139);;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+    
+    
+}
+
+#menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+
+   
+
+   #menu ul ul {
+    display:none;
+    position:absolute;
+    width: 10em;
+    top:100%;
+    left:0;
+    padding:0;
+    
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width: 100%;
+   }
+
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+
+   #menu ul a:hover{
+    background-color: aquamarine;
+    color: black;
+   }
+   
+   #menu ul li:hover ul {
+    display:block;
+    }
+   
+   .main {
+    padding: 16px;
+    margin-top: 30px;
+    text-align:justify;
+  }
+
+  @media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    #menu ul li{
+      float: none;
+    }
+}
+
+    @media only screen and (max-width: 900px) {
+        /* For mobile phones: */
+        .main{
+          margin-top: 10rem;
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        /* For mobile phones: */
+        #menu ul li:hover ul {
+            z-index: 1;
+            left: 3em;
+            }
+    }

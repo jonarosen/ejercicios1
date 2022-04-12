@@ -1,0 +1,245 @@
+
+/* Esto es para que la imagen se extienda para toda la pantalla */
+  body, html{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Barra de navegaci[on del menu */
+
+  .nav {  
+      display: flex;  
+      padding: 0;
+      margin-bottom: 0;
+      justify-content: space-between;
+      
+      
+    }
+  
+  
+  .nav  li {  
+    flex: 1;
+    list-style: none;  
+    background-color: black;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+    
+  }
+
+  .nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+  }
+
+  .derecha:hover{
+    background-color: rgb(4, 179, 179); ;
+  }
+
+  .izquierda:hover{
+    background-color: rgb(4, 179, 179); ;
+  }
+
+  .derecha{
+     
+      max-width: 10%;
+  }
+
+  .izquierda{
+      max-width: 10%;
+  }
+
+  /* Metodo alternativo de barra 
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  
+  
+
+}
+
+.flex-container  a {
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    margin: 0.1rem;
+    text-align: center;
+    line-height: 2.3rem;
+    font-size: 30px;
+  }
+
+  .flex-container  a:hover{
+      background-color: rgb(95, 95, 95);
+      border: 0,3rem solid gray;
+  } 
+
+  */
+
+  /* Imagen de fondo*/
+
+.fondo{
+    background: url(imagen.jpg) no-repeat center;
+    background-size:cover;
+    height: 80em;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 7em;
+    padding: 0;
+    left: 0;
+    overflow: hidden;
+    
+}
+
+.texto1 {
+    color: white;
+    font-weight: bold;
+    margin-left: 6em;
+    margin-top: 3em;
+   
+}
+
+.texto2 {
+    color: white;
+    font-weight: bold;
+    margin-left: 80em ;
+    margin-top: 30em;
+    display: inline-flex;
+    
+    
+    
+}
+
+.fondo input{
+    color: white;
+    background-color: red;
+    border-radius: 0.5em;
+    margin-right: 2em;
+}
+
+.fondo input:hover{
+    
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    
+}
+
+
+
+
+/*Seccion fotos*/
+
+
+.container{
+    border: 0.1em solid black;
+    border-radius: 0.5em;
+    width: 20em;
+    height: 28em;
+    margin: 3rem;
+    
+    
+  
+}
+
+img{
+    width: 20em;
+    height: 15em;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    
+    
+}
+
+.oradores{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+     align-items: center;
+   
+    
+    
+}
+
+.botones{
+    margin-top: 0.5em;
+    margin-right: 1em;
+    position: relative;
+    left: 14em;
+    
+    
+  
+    
+    
+    
+    
+}
+
+.botonRojo{
+    background-color: red;
+    border-radius: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+    
+}
+
+.botonRojo:hover{
+    background-color: rgb(151, 4, 4);
+    border-radius: 0.5em;
+    font-weight: bold;
+    
+    
+    
+}
+
+.botonRojo:active{
+    background-color: rgb(247, 91, 91);
+    border-radius: 0.5em;
+    font-weight: bold;
+    
+    
+    
+}
+
+.botonAmarillo{
+    background-color: yellow;
+    border-radius: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botonAmarillo:hover{
+    background-color: rgb(148, 148, 0);
+    border-radius: 0.5em;
+    font-weight: bold;
+    
+}
+
+.botonAmarillo:active{
+    background-color: rgb(216, 216, 114);
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+.titulo{
+    margin-top: 0.8em;
+    margin-left: 0.4em;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.texto{
+    margin: 0.4em;
+    margin-left: 0.4em;
+    text-align: justify;
+}
